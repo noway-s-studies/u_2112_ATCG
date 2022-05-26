@@ -1,14 +1,16 @@
-<div class="contauner">
+<div class="container">
     <div class="row">
         <div class="col-xs-12">
             <h3>Header</h3>
             <hr>
-            <!-- <app-servers></app-servers> -->
-            <div app-servers></div>
+            <app-servers></app-servers>
+            <!-- <div app-servers></div> -->
+            <!-- <div class="app-servers"></div> -->
 
             <input type="text" [(ngModel)]="name">
             <p>{{name}}</p>
-
+            <app-warning-alert></app-warning-alert>
+            <app-success-alert></app-success-alert>
         </div>
     </div>
 </div>
